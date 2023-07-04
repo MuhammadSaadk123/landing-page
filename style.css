@@ -6,7 +6,20 @@ body {
 
 .portion-1,
 .portion-5 {
-    background-color: #1F2937;
+    background-color: #1F2937;   
+}
+
+.portion-5 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+.footer {
+    align-self: center;
+    justify-content: center;
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .portion-3 {
@@ -26,7 +39,7 @@ body {
 }
 
 .quoter {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     float: right;
 }
