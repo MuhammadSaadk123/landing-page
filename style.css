@@ -53,6 +53,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 30px;
+    gap: 20px;
 }
 
 .label {
@@ -62,9 +63,21 @@ body {
     color: #1F2937;
 }
 
-.pics {
-    max-height: 50px;
-    max-width: 55px;
+img {
+    height: 200px;
+    width: 300px;
+}
+
+.facts {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.pic1,
+.pic2,
+.pic3,
+.pic4 {
+    text-align: center;
 }
 .portion-4 {
     display: flex;
